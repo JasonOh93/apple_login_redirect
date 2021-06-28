@@ -1,0 +1,22 @@
+{
+    "name": "sign-in-with-apple",
+    "version": "1.0.0",
+    "description": "Sign in with Apple Backend Server",
+    "main": "apple_login.js",
+    "scripts": {
+      "start": "node apple_login.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JasonOh93/apple_login_redirect"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "dotenv": "^8.0.0",
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "jsonwebtoken": "^8.5.1"
+    }
+  }
